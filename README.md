@@ -2,9 +2,9 @@
 
 Command-line chess.
 
-<center>
+<p align="center">
   <img src="./images/chess_board.jpg"/>
-</center>
+</p>
 
 ## Installation
 
