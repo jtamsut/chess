@@ -1,8 +1,12 @@
 # Chess 
 
-![chess-board](./images/chess_board.jpg)
+Command-line chess.
 
-Chess you can play in your terminal.
+<center>
+  ![chess-board](./images/chess_board.jpg)
+</center>
+
+## Installation
 
 ## To Dos
 
