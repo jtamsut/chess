@@ -2,19 +2,30 @@
 
 # Generic piece class
 class Piece
-  def initialize(name)
-    @name = name
-  end
+  attr_reader :name
 
-  def valid_move
-    raise 'valid_move method not implemented'
+  def initialize(name:, color:)
+    @name = name
+    @color = color
   end
 
   def symbol
-    raise 'symbol method not implemented'
+    return dark_symbol if piece_dark?
+
+    light_symbol
   end
 
-  def position
-    raise 'position method not implemented'
+  private
+
+  def piece_dark?
+    @color == 'dark'
+  end
+
+  def light_symbol
+    self.class.const_get(:LIGHT_SYMBOL)
+  end
+
+  def dark_symbol
+    self.class.const_get(:DARK_SYMBOL)
   end
 end

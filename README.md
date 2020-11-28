@@ -4,6 +4,8 @@ Building chess I can play in my terminal.
 
 ## Board Coordinate System 
 
+1. **Step 1**: Render the board.
+
 The board has a **single** set of coordinates. Starting from the upper left.
 
 (dark pieces)
@@ -17,7 +19,6 @@ The board has a **single** set of coordinates. Starting from the upper left.
 ----------------------------------------------------------------------|
 (0,3) |         ...
 ----------------------------------------------------------------------|
-(0,4) |             ...
 ----------------------------------------------------------------------|
 (0,5) |                 ... 
 ----------------------------------------------------------------------|
