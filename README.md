@@ -3,7 +3,7 @@
 Command-line chess.
 
 <center>
-  ![chess-board](./images/chess_board.jpg)
+  <img src="./images/chess_board.jpg"/>
 </center>
 
 ## Installation
