@@ -1,40 +1,10 @@
 # Chess 
 
-Building chess I can play in my terminal.
+![chess-board](./images/chess_board.jpg)
 
-## Board Coordinate System 
+Chess you can play in your terminal.
 
-1. **Step 1**: Render the board.
+## To Dos
 
-The board has a **single** set of coordinates. Starting from the upper left.
-
-(dark pieces)
-
-```
-(0,0) | (1,0) | (2,0) | (3,0) | (4,0) | (5,0) | (6,0) | (7,0) | (8,0) |
-----------------------------------------------------------------------|
-(0,1) | ...
-----------------------------------------------------------------------|
-(0,2) |     ...
-----------------------------------------------------------------------|
-(0,3) |         ...
-----------------------------------------------------------------------|
-----------------------------------------------------------------------|
-(0,5) |                 ... 
-----------------------------------------------------------------------|
-(0,6) |                     ...
-----------------------------------------------------------------------|
-(0,7) |                         ...
-----------------------------------------------------------------------|
-(0,8) |                             ...
-----------------------------------------------------------------------|
-```
-
-(light pieces)
-
-## Notes 
-
-* Here are the rules of chess: https://en.wikipedia.org/wiki/Rules_of_chess
-* Plan out general architecture
-* Write RSpec tests
-* Use Unicode chess symbols: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+- [ ] Find a nice way to render board and pieces 
+- [ ] Create a chess AI
